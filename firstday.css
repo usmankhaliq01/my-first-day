@@ -1,25 +1,3 @@
-h1{
-    font-size: 80px;
-    color: teal;
-}
-h2{
-    font-size: 70px;
-    color: black;
-}
-
-.big{
-    font-size: 200px;
-}
-
-.hash{
-    font-size: 100px;
-
-    color: royalblue;
-}
-.hash{
-    text-transform: uppercase;
-}
-h1span{
-    color: rosybrown;
-    font-size: 90;
+body{
+    background-color: teal;
 }
