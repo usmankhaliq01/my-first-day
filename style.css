@@ -56,14 +56,17 @@ footer{
   font-size: 30px;
 }
 div3{
-  font-size: 100;
+  font-size: 500px;
 }
 h11{
   font-size: 30px;
 background-color: gainsboro;
 color: black;}
-hover{
+a:hover{
   color: black;
        background-color: cyan;
   color: blue;
-       background-color: yellow;
+       background-color: yellow;}
+h6{
+  font-size: 20px;
+}
