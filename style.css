@@ -1,6 +1,6 @@
  body{
  margin: 0;}
-
+background-image url:("https://i.pinimg.com/originals/09/01/d0/0901d0c2a29983d7f82a8ed679ab6741.gif");
 
 .page-container{
   display: grid;
@@ -69,4 +69,15 @@ a:hover{
        background-color: yellow;}
 h6{
   font-size: 20px;
+}
+body{
+    background-image: url("https://i.pinimg.com/originals/09/01/d0/0901d0c2a29983d7f82a8ed679ab6741.gif");
+
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
 }
