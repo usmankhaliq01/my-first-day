@@ -1,83 +1,72 @@
- body{
- margin: 0;}
-background-image url:("https://i.pinimg.com/originals/09/01/d0/0901d0c2a29983d7f82a8ed679ab6741.gif");
-
-.page-container{
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  column-gap: px;
-  width: 100%;
-  height: 50%;
-}
-.sidebar{
-  text-align: left;
-background-color:lightblue;
-color: red;
-font-size: 30;
-height: 100%;
-}
-.main{
-  background-color: black;
-  color: honeydew;
-  font-size:
-
-}
-h1{
-  background-color: rgb(98, 40, 151);
-  color: aliceblue;
-  height: 40;
-  size: 20px;
-}
-h5{
-  font-size: 40px;
-  text-align: left;
-  margin: 150;
-  font-family:'Times New Roman', Times, serif ;
-  
-}
-header{
-  background-color: tan;
-  width: 280;
-}
-header img{
-padding: 10px;
-  margin-top: 0px;
-  margin: 0px;
-  border-radius: 280px;
-  width:300px;
-  border: 12px solid skyblue ;
-  text-align: center;
-  align-items: center
-  ;
-}
-footer{
-  align-items: center;
-  background-color: darkorange;
-  font-size: 30px;
-}
-div3{
-  font-size: 500px;
-}
-h11{
-  font-size: 30px;
-background-color: gainsboro;
-color: black;}
-a:hover{
-  color: black;
-       background-color: cyan;
-  color: blue;
-       background-color: yellow;}
-h6{
-  font-size: 20px;
-}
 body{
-    background-image: url("https://i.pinimg.com/originals/09/01/d0/0901d0c2a29983d7f82a8ed679ab6741.gif");
-
-    background-size: cover;
-    
-    
-    
-    height: 100vh;
-    padding:0;
-    margin:0;
-}
+  margin: 0;}
+ 
+ 
+ .page-container{
+   display: grid;
+   grid-template-columns: 1fr 3fr;
+   column-gap: px;
+   width: 100%;
+   height: 50%;
+ }
+ .sidebar{
+   text-align: left;
+ background-color:lightblue;
+ color: red;
+ font-size: 30;
+ height: 100%;
+ }
+ .main{
+   background-color: black;
+   color: honeydew;
+   font-size:
+ 
+ }
+ h1{
+   background-color: rgb(98, 40, 151);
+   color: aliceblue;
+   height: 40;
+   size: 20px;
+ }
+ h5{
+   font-size: 40px;
+   text-align: left;
+   margin: 150;
+   font-family:'Times New Roman', Times, serif ;
+   
+ }
+ header{
+   background-color: tan;
+   width: 280;
+ }
+ header img{
+ padding: 10px;
+   margin-top: 0px;
+   margin: 0px;
+   border-radius: 280px;
+   width:300px;
+   border: 12px solid skyblue ;
+   text-align: center;
+   align-items: center
+   ;
+ }
+ footer{
+   align-items: center;
+   background-color: darkorange;
+   font-size: 30px;
+ }
+ div3{
+   font-size: 500px;
+ }
+ h11{
+   font-size: 30px;
+ background-color: gainsboro;
+ color: black;}
+ a:hover{
+   color: black;
+        background-color: cyan;
+   color: blue;
+        background-color: yellow;}
+ h6{
+   font-size: 20px;
+ }
