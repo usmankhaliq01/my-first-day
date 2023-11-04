@@ -12,8 +12,14 @@ body{
     height: 100%;
 }
 .header{
-    grid-column:1/3;
+    grid-column:1/4;
     background-color: darkslategrey;
+    text-align: center;
+    margin: 0px;
+    padding-top: 0px;
+    font-size: 10px;
+    color: lightgreen;
+
 }
 .header-menu{
        list-style-type: armenian;
@@ -58,25 +64,27 @@ body{
     top: 0;
     right: 0;
     width: 50vw;
-    background-color: forestgreen;
+    background-color: darkslategrey;
     height: 100vh;
     padding: 10px;
     transition: right 1s ease-in-out;
+    text-decoration: none;
 
 }
 .DRAWER[aria-hidden="true"]{
     right: -100%;
+    text-decoration: none;
     
 }
  button {
-  background-color: blue;
+  background-color: goldenrod;
   border: 10px;
-  color: ghostwhite;
+  color: white ;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 11px;
+  font-size: 13px;
   cursor: help;
 a:hover
     color: cyan;
