@@ -78,4 +78,6 @@ body{
   display: inline-block;
   font-size: 11px;
   cursor: help;
+a:hover
+    color: cyan;
 }
