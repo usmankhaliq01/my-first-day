@@ -1,3 +1,81 @@
 body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.page-container {
+    display: grid;
+    grid-template-columns: minmax(auto, 150px) 3fr;
+    grid-template-rows: 50px 1fr;
+    column-gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    grid-column:1/3;
+    background-color: darkslategrey;
+}
+.header-menu{
+       list-style-type: armenian;
+    padding-left: 20px;
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+}
+.header-menu li a {
+    text-decoration: none;
+    color: black;
+}
+.header-menu li a:hover{
+    background-color: white;
+    color: teal;
+    text-decoration: blink;
+}
+.sidebar {
+    background-color: lightgreen;
+ 
+}
+.sidebar-menu{
+    list-style-type: armenian;
+    padding-left: 20px;
+
+}
+.sidebar-menu li a {
+    text-decoration: none;
+    color: black;
+}
+.sidebar-menu li a:hover{
     background-color: black;
+    color: lightgreen;
+    text-decoration: blink;
+}
+.main{
+
+
+}
+.DRAWER {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50vw;
+    background-color: forestgreen;
+    height: 100vh;
+    padding: 10px;
+    transition: right 1s ease-in-out;
+
+}
+.DRAWER[aria-hidden="true"]{
+    right: -100%;
+    
+}
+ button {
+  background-color: blue;
+  border: 10px;
+  color: ghostwhite;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  cursor: help;
 }
